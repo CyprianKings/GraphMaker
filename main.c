@@ -175,4 +175,3 @@ void DisableOpenGL (HWND hwnd, HDC hDC, HGLRC hRC)
     wglDeleteContext(hRC);
     ReleaseDC(hwnd, hDC);
 }
-
